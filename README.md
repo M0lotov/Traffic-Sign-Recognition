@@ -40,8 +40,6 @@ Run the scripts `aug.py`, `aug_balance.py` to perform correspounding preprocessi
 
 ### Training
 
-For Retinanet and Faster RCNN, run the following command under `detectron2/` 
-
 ```
 python tools/train_net.py --config-file <config-file> OUTPUT_DIR <output_dir>
 ```
