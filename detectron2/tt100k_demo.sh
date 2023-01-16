@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python demo/demo.py --config-file configs/COCO-Detection/retinanet_R_50_FPN_1x.yaml --input ../datasets/test/*.jpg --output tt100k_aug/test_set/ --opts MODEL.WEIGHTS tt100k_aug/model_final.pth
